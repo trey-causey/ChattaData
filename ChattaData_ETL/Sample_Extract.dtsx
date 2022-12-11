@@ -1,0 +1,47 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="12/11/2022 6:22:55 AM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="DESKTOP-N9GJH3Q"
+  DTS:CreatorName="DESKTOP-N9GJH3Q\TJC"
+  DTS:DTSID="{4D41AC5A-44A0-446C-A6C8-81C2AAE21567}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="16.0.948.0"
+  DTS:LocaleID="1033"
+  DTS:ObjectName="Package1"
+  DTS:PackageType="5"
+  DTS:VersionBuild="1"
+  DTS:VersionGUID="{044ACB2B-1D5F-495F-9057-3EC873F1BD78}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[LocalHost.Dataset_staging.sa]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{57455879-8065-4402-9506-52382AE58EB9}"
+      DTS:ObjectName="LocalHost.Dataset_staging.sa">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=.;User ID=sa;Initial Catalog=Dataset_staging;Provider=SQLNCLI11.1;Application Name=SSIS-Package1-{57455879-8065-4402-9506-52382AE58EB9}LocalHost.Dataset_staging.sa;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAFPLqbI1gekagDPkYlJGUMgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACOEc4S8TW1Kg0f2MIhSnVvhn5bIguhLxGOwYc/V3NhagAAAAAOgAAAAAIAACAAAABmJ/DMRESCo1K7WL9vD3UnvQzyClnzCasH8CrftwX7xSAAAAD+dfIzuAsI9aDa5B1jbqNwWEtoO5a53tMXKozA22lsnkAAAABbnOnthwk9+2ih6lH9Ehl1LdzcGeWv8gg04IAtLAq9gEZR14t5s8JrOnVxJn5zhgkeVmI4xIdkd41oObmfU0VZ</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables />
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="8">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>

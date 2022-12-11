@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.33027.164
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "ChattaData_Project", "ChattaData_Project\ChattaData_Project.dtproj", "{E6A0F0CA-C705-44CF-B977-3894CE48C905}"
 EndProject
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "Template_Packages", "Template_Packages\Template_Packages.dtproj", "{107A6C89-6019-4FF6-B743-E96B0767B0B9}"
+EndProject
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "ChattaData_ETL", "ChattaData_ETL\ChattaData_ETL.dtproj", "{2FBFF379-CA95-4828-858B-7B4B00B738AC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Development|Default = Development|Default
@@ -12,6 +16,10 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{E6A0F0CA-C705-44CF-B977-3894CE48C905}.Development|Default.ActiveCfg = Development
 		{E6A0F0CA-C705-44CF-B977-3894CE48C905}.Development|Default.Build.0 = Development
+		{107A6C89-6019-4FF6-B743-E96B0767B0B9}.Development|Default.ActiveCfg = Development
+		{107A6C89-6019-4FF6-B743-E96B0767B0B9}.Development|Default.Build.0 = Development
+		{2FBFF379-CA95-4828-858B-7B4B00B738AC}.Development|Default.ActiveCfg = Development
+		{2FBFF379-CA95-4828-858B-7B4B00B738AC}.Development|Default.Build.0 = Development
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
